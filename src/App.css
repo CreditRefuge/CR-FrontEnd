@@ -51,3 +51,10 @@ width: fit-content;
     transform: translatey(0px);
   }
 }
+
+/* FOOTER STYLING */
+.footer-main-div{
+  background-color: aliceblue;
+  padding: 20px;
+  margin-top: 200px;
+}

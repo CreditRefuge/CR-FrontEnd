@@ -25,11 +25,8 @@ function App() {
         <Learn />
         <ContactUs />
         <GetStarted />
-      </main>
-
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function Navigation() {
 						<Nav.Link href='#get-started-main-div'>Get Started</Nav.Link>
 					</Nav>
 
-					<Nav pullRight>
+					<Nav>
 						<a
 							href='https://twitter.com/creditrefuge'
 							target='_blank'
