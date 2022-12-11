@@ -1,38 +1,53 @@
-.App {
+/* GENERAL STYLING */
+* {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  height: 100vh;
+  background-color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#learn-main-div, #main-component-div, #our-prog-main-div, #get-started-main-div, #contact-us-main-div {
+  height: fit-content;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* ~~~ PAGE SPECIFIC STYLING ~~~ */
+
+/* MAIN COMPONENT STYLING */
+#app-main-div{
+  height: 100%;
+}
+
+main{
+  height: 100vh;
+}
+
+.main-component-div{
+  height: 65%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 200px;
 }
 
-.App-link {
-  color: #61dafb;
+#btn-get-started {
+width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.hover-p {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
   }
 }
