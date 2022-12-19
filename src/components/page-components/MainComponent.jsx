@@ -1,23 +1,28 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
+import logo from '../../assets/imgs/cr-tent.png';
 
 function MainComponent() {
-  return (
-		<div className='main-component-div mx-auto mt-auto'>
-			<h1 id='main-comp-h1' className='mx-auto mt-auto'>
-				Credit Refuge
-			</h1>
+	return (
+		<div className='bg-dark main-component-div mx-auto mt-auto p-5'>
 
-			<Button
-				className='mx-auto'
-				id='btn-get-started'
-				size='lg'
-				variant='primary'>
-				Get Started
-			</Button>
+			<Container fluid className='overflow-hidden d-flex flex-column mt-auto'>
 
-      {/* HOVER P'S */}
-			<p
+				<img src={logo} alt='logo' height='60%' className='mx-auto mt-auto'/>
+
+				<Button
+					className='mx-auto btn-info'
+					id='btn-get-started'
+					size='lg'
+					variant='primary'>
+					Get Started
+				</Button>
+
+			</Container>
+
+
+			{/* HOVER P'S */}
+			{/* <p
 				className='hover-p'
 				style={{ color: 'red', top: '50%', left: '60%', fontSize: '25px' }}>
 				- Something Bad
@@ -45,7 +50,7 @@ function MainComponent() {
 				className='hover-p'
 				style={{ color: 'green', top: '50%', left: '45%', fontSize: '25px' }}>
 				+ Something Positive
-			</p>
+			</p> */}
 		</div>
 	);
 }

@@ -4,12 +4,12 @@ import Container from 'react-bootstrap/Container';
 
 function Footer(props) {
   return (
-		<Container fluid className='footer-main-div'>
+		<Container fluid className='bg-dark footer-main-div'>
 			<a
 				href='https://twitter.com/creditrefuge'
 				target='_blank'
 				rel='noreferrer'
-				className='mx-2'>
+				className='mx-2 link-info'>
 				<Icon.Twitter size='30' />
 			</a>
 
@@ -17,11 +17,11 @@ function Footer(props) {
 				href='https://www.instagram.com/thecreditrefuge/'
 				target='_blank'
 				rel='noreferrer'
-				className='mx-2'>
+				className='mx-2 link-info'>
 				<Icon.Instagram size='30' />
 			</a>
 
-			<a href='' target='_blank' rel='noreferrer' className='mx-2'>
+			<a href='' target='_blank' rel='noreferrer' className='mx-2 link-info'>
 				<Icon.Facebook size='30' />
 			</a>
 		</Container>
