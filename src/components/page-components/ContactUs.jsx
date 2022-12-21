@@ -3,7 +3,7 @@ import React from 'react';
 function ContactUs(props) {
   return (
 		<div className='my-5' id='contact-us-main-div'>
-			<h1>Contact Us</h1>
+			{/* <h1>Contact Us</h1>
 			<p className='mx-5'>
 				Risus nec feugiat in fermentum posuere. Mi tempus imperdiet nulla
 				malesuada. Porttitor eget dolor morbi non arcu. Ullamcorper a lacus
@@ -18,7 +18,7 @@ function ContactUs(props) {
 				dictum. Leo vel orci porta non pulvinar. Vulputate odio ut enim blandit
 				volutpat maecenas volutpat blandit. Pulvinar elementum integer enim
 				neque volutpat. Ultrices neque ornare aenean euismod.
-			</p>
+			</p> */}
 		</div>
 	);
 }

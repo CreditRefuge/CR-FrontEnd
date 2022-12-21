@@ -21,10 +21,10 @@ function App() {
 
       <main>
         <MainComponent />
+        <GetStarted />
         <OurProgram />
         <Learn />
         <ContactUs />
-        <GetStarted />
         <Footer />
       </main>
     </div>

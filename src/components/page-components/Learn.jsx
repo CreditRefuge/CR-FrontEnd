@@ -3,7 +3,7 @@ import React from 'react';
 function Learn(props) {
   return (
 		<div className='my-5' id='learn-main-div'>
-			<h1>Learn</h1>
+			{/* <h1>Learn</h1>
 			<p className='mx-5'>
 				Maecenas ultricies mi eget mauris pharetra et ultrices. Imperdiet sed
 				euismod nisi porta lorem mollis aliquam ut. Quis ipsum suspendisse
@@ -17,7 +17,7 @@ function Learn(props) {
 				quisque sagittis purus sit. In nisl nisi scelerisque eu ultrices. Ipsum
 				a arcu cursus vitae congue mauris rhoncus aenean. Diam donec adipiscing
 				tristique risus nec feugiat in fermentum.
-			</p>
+			</p> */}
 		</div>
 	);
 }

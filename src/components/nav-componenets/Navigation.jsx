@@ -17,16 +17,13 @@ function Navigation() {
 					<Nav className='me-auto mx-5'>
 						<Nav.Link href='#our-prog-main-div'>Our Program</Nav.Link>
 						<Nav.Link href='#learn-main-div'>Learn</Nav.Link>
-
-						<Nav.Link
-							href='#contact-us-main-div'
-							className='btn btn-outline-info mx-5'>
-							Contact Us
+						<Nav.Link href='#get-started-main-div'>Get Started </Nav.Link>
+						<Nav.Link target="_blank" href='https://www.secureclientaccess.com/home'>
+							Customer Portal
 						</Nav.Link>
-						<Nav.Link
-							href='#get-started-main-div'
-							className='btn btn-info'>
-							Get Started
+
+						<Nav.Link href='#contact-us-main-div' className='btn btn-info mx-5'>
+							Contact Us
 						</Nav.Link>
 					</Nav>
 
@@ -48,7 +45,7 @@ function Navigation() {
 						</a>
 
 						<a
-							href=''
+							href='#'
 							target='_blank'
 							rel='noreferrer'
 							className='mx-2 link-info'>

@@ -15,42 +15,10 @@ function MainComponent() {
 					id='btn-get-started'
 					size='lg'
 					variant='primary'>
-					Get Started
+					Schedule Your Free Consultation Today!
 				</Button>
 
 			</Container>
-
-
-			{/* HOVER P'S */}
-			{/* <p
-				className='hover-p'
-				style={{ color: 'red', top: '50%', left: '60%', fontSize: '25px' }}>
-				- Something Bad
-			</p>
-
-			<p
-				className='hover-p'
-				style={{ color: 'red', top: '50%', left: '26%', fontSize: '35px' }}>
-				- Something Bad
-			</p>
-
-			<p
-				className='hover-p'
-				style={{ color: 'red', top: '70%', left: '40%', fontSize: '20px' }}>
-				- Collections
-			</p>
-
-			<p
-				className='hover-p'
-				style={{ color: 'green', top: '70%', left: '55%', fontSize: '3a5px' }}>
-				+ Something Positivew
-			</p>
-
-			<p
-				className='hover-p'
-				style={{ color: 'green', top: '50%', left: '45%', fontSize: '25px' }}>
-				+ Something Positive
-			</p> */}
 		</div>
 	);
 }

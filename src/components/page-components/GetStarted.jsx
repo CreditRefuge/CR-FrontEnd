@@ -1,21 +1,35 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function GetStarted(props) {
   return (
 		<div className='my-5' id='get-started-main-div'>
-			<h1>Get Started</h1>
-			<p className='mx-5'>
-				Sed adipiscing diam donec adipiscing. Cursus metus aliquam eleifend mi
-				in nulla posuere. Vestibulum mattis ullamcorper velit sed. Nisi vitae
-				suscipit tellus mauris a diam. Tellus pellentesque eu tincidunt tortor
-				aliquam nulla. Ultrices vitae auctor eu augue. Sem integer vitae justo
-				eget magna. Leo vel orci porta non pulvinar neque. Sit amet porttitor
-				eget dolor. Ultricies leo integer malesuada nunc vel. Praesent elementum
-				facilisis leo vel fringilla est ullamcorper eget nulla. Enim lobortis
-				scelerisque fermentum dui. In est ante in nibh. Sed arcu non odio
-				euismod lacinia. Facilisis gravida neque convallis a cras semper auctor
-				neque. Quis viverra nibh cras pulvinar mattis nunc sed.
-			</p>
+			<h1 className='mb-4'>Get Started</h1>
+			<h6>Get Started Today For $50 / Month</h6>
+			<Container className='my-5'>
+				<Row>
+					<Col>
+						<Row></Row>
+						<Row>
+							<h2>Step 1</h2>
+						</Row>
+					</Col>
+
+					<Col>
+						<Row></Row>
+						<Row>
+							<h2>Step 2</h2>
+						</Row>
+					</Col>
+
+					<Col>
+						<Row></Row>
+						<Row>
+							<h2>Step 3</h2>
+						</Row>
+					</Col>
+				</Row>
+			</Container>
 		</div>
 	);
 }
