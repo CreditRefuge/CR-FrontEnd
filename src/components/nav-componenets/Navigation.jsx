@@ -15,8 +15,10 @@ function Navigation() {
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>
 					<Nav className='me-auto mx-5'>
-						<Nav.Link href='#our-prog-main-div'>Our Program</Nav.Link>
-						<Nav.Link href='#learn-main-div'>Learn</Nav.Link>
+						{/* <Nav.Link href='#our-prog-main-div'>Our Program</Nav.Link> */}
+						{/* <Nav.Link href='#learn-main-div'>Learn</Nav.Link> */}
+
+						<Nav.Link href="#get-started-header">Our Program</Nav.Link>
 						<Nav.Link href='#get-started-main-div'>Get Started </Nav.Link>
 						<Nav.Link target="_blank" href='https://www.secureclientaccess.com/home'>
 							Customer Portal
